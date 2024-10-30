@@ -1,7 +1,6 @@
 import BestSellers from "@/components/home/BestSellers";
 import HandPicked from "@/components/home/HandPicked";
 import HeroSection from "@/components/home/HeroSection";
-import Navbar from "@/components/commonComponents/Navbar";
 import NewArrival from "@/components/home/NewArrival";
 import NewsLetter from "@/components/home/NewsLetter";
 import ProductCatalog from "@/components/home/ProductCatalog";
@@ -11,7 +10,6 @@ import BookCategories from "@/components/home/BookCategories";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <HeroSection />
       <BookCategories />
       <NewsLetter />
@@ -19,7 +17,6 @@ export default function Home() {
       <BestSellers />
       <HandPicked />
       <ProductCatalog />
-      <Footer />
     </div>
   );
 }

@@ -49,7 +49,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="flex justify-between py-7 px-5">
+    <div className="flex justify-between py-7 px-5 border border-b-gray-700">
       <div className="flex gap-2">
         <div className="w-8 h-8 bg-gray-300 rounded-md flex items-center justify-center">
           <span className="text-xs">D</span>
